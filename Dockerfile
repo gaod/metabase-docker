@@ -1,5 +1,5 @@
 FROM metabase/metabase:v0.47.8 as build
-FROM eclipse-temurin:21.0.1_12-jre-alpine
+FROM eclipse-temurin:21.0.2_13-jre-alpine
 
 COPY --from=build /app /app
 
